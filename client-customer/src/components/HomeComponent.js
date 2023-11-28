@@ -62,10 +62,10 @@ class Home extends Component {
           loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
         <div className='anh-hai'>
-          {/* <img src='banner12.webp'></img> */}
+          <img src='banner12.webp'></img>
         </div>
         <div className='banner3'>
-          {/* <img src="banner3.jpg"></img> */}
+          <img src="banner3.jpg"></img>
         </div>
       </div>
     );
