@@ -44,7 +44,7 @@ class Home extends Component {
     return (
       <div>
         <div className='anh-mot'>
-          {/* <img src='banner1.webp'></img> */}
+          <img src='banner1.webp'></img>
         </div>
         <div className="align-center">
           <h2 className="text-center">SẢN PHẨM MỚI</h2>
