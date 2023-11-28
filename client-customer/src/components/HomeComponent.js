@@ -20,7 +20,7 @@ class Home extends Component {
             </Link>
             <figcaption className="text-center">
               {item.name}<br />
-              Giá tiền: {usdPrice.toLocaleString('en-US', { style: 'currency', currency: 'USD' })}
+              Giá tiền: {parseInt(item.price).toLocaleString('vi-VN', { style: 'currency', currency: 'VND' })}
             </figcaption>
           </figure>
         </div>
@@ -35,7 +35,7 @@ class Home extends Component {
             </Link>
             <figcaption className="text-center">
               {item.name}<br />
-              Giá tiền: {usdPrice.toLocaleString('en-US', { style: 'currency', currency: 'USD' })}
+              Giá tiền: {parseInt(item.price).toLocaleString('vi-VN', { style: 'currency', currency: 'VND' })}
             </figcaption>
           </figure>
         </div>
