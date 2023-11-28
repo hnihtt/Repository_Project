@@ -86,10 +86,10 @@ class ProductDetail extends Component {
     axios.post('/api/admin/products', prod, config).then((res) => {
       const result = res.data;
       if (result) {
-        alert('Thêm thành công!');
+        alert('Thành công!');
         this.apiGetProducts();
       } else {
-        alert('Thêm không thành công!');
+        alert('Không thành công!');
       }
     });
   }
@@ -131,10 +131,10 @@ btnUpdateClick(e) {
     axios.put('/api/admin/products/' + id, prod, config).then((res) => {
       const result = res.data;
       if (result) {
-        alert('Xóa thành công!');
+        alert('Thành công!');
         this.apiGetProducts();
       } else {
-        alert('Xóa không thành công!');
+        alert('Không thành công!');
       }
     });
   }
@@ -156,10 +156,10 @@ btnUpdateClick(e) {
     axios.delete('/api/admin/products/' + id, config).then((res) => {
       const result = res.data;
       if (result) {
-        alert('Xóa thành công!');
+        alert('Thành công!');
         this.apiGetProducts();
       } else {
-        alert('Xóa không thành công!');
+        alert('Không thành công!');
       }
     });
   }
